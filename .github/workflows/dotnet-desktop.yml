@@ -58,7 +58,8 @@ jobs:
     env:
       Solution_Name: ConsoleApp20.sln                      # Replace with your solution name, i.e. MyWpfApp.sln.
       Test_Project_Path: ConsoleApp20\ConsoleApp20.csproj                 # Replace with the path to your test project, i.e. MyWpfApp.Tests\MyWpfApp.Tests.csproj.
-    
+    # Wap_Project_Directory: your-wap-project-directory-name # УДАЛЕНО
+              # Wap_Project_Path: your-wap-project-path                  # УДАЛЕНО
 
     steps:
     - name: Checkout
